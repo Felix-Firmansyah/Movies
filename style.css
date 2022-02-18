@@ -37,7 +37,6 @@ p {
 }
 .title{
     margin-left: 1rem;
-    text
 }
 h4 {
     font-size: 20px;
@@ -47,4 +46,22 @@ h4 {
 }
 .btn-play:hover{
     background: black;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #262624;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #262624;
 }
