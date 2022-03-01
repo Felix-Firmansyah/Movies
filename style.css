@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
 
 :root {
     --warna: #6e3ace;
@@ -13,8 +16,8 @@
 body{
     overflow-x: hidden;
 }
-h1 {
-    font-family: 'Montserrat', sans-serif;
+h2 {
+    font-family: 'Quicksand', sans-serif;
 }
 /* Navbar */
 .nav-item {
@@ -83,6 +86,4 @@ h4 {
 span {
     color: green;
 }
-.footer {
-    co
-}
+
