@@ -13,9 +13,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 :root {
-    --warna: #6e3ace;
+    --darkblue: #ffffff;
+    --white: #291D5A;
+    --black: #ffffff;
+    --darkpuple: rgb(110, 58, 206);
+    --dark-gray: #ADADAD;
+    --gray: #ededed;
+    --lightgray: #000000;
+    --button:#000000;
 }
 
+.dark-mode {
+    --darkblue: #291D5A;
+    --white: #ffffff;
+    --black: #000000;
+    --darkpuple: rgb(110, 58, 206);
+    --lightgray: #F3F3F3;
+    --button:#000000;
+}
 * {
     padding: 0;
     margin: 0;
@@ -24,6 +39,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: var(--black);
 }
 
 h2 {
@@ -41,7 +57,7 @@ h2 {
 }
 
 .navbar-expand-lg {
-    background: var(--warna);
+    background: var(--darkpuple);
     margin-bottom: 12px;
 }
 
@@ -62,7 +78,7 @@ h4 {
 }
 
 .btn-play {
-    background: var(--warna);
+    background: var(--button);
 }
 
 .btn-play:hover {
@@ -128,3 +144,11 @@ span {
 p{
     color:#101012;
 }
+.mode {
+    float: right;
+}
+.content {
+    text-align: center;
+    margin: 0 2rem;
+}
+
